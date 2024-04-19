@@ -12,5 +12,3 @@ Tôi là Trần Vũ Minh Nhật, hiện tại đang là sinh viên theo học ng
 
 Cảm ơn bạn đã ghé thăm blog này 🥰 Enjoy it!
 
-{: .filepath } and it will show up on this page.
-{: .prompt-tip }
