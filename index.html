@@ -1,11 +1,569 @@
-<!DOCTYPE html>
-<html lang="vi">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Xin chào</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=600,user-scalable=1.0"/>
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://stats.g.doubleclick.net">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CV - Nhung">
+    <meta name="twitter:description" content="I'm Nhung Tran Thi My. This is the CV page on my Blog NhungNews! You can download my CV here!">
+    <title> Business Analyst - Trần Thị Mỹ Nhung</title>
+    <meta name="keywords" content="Blogger, NhungCV"/>
+    <meta name="description"
+          content="I'm Nhung Tran Thi My. This is the CV page on my Blog NhungNews! You can download my CV here!"/>
+    <meta name="author" content="Nhung"/>
+    <meta property="og:title" content="CV - Nhung"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="CV - Nhung"/>
+    <meta property="og:image" content="common/img/cv-wide.png"/>
+
+    <meta property="og:site_name" content="Nhung"/>
+    <meta property="og:description"
+          content="I'm Nhung Tran Thi My. This is the CV page on my Blog NhungNews! You can download my CV here!"/>
+    <meta property="fb:admins" content="100003912251390"/>
+    <link rel="shortcut icon" href="https://img.icons8.com/material-outlined/24/source-code.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+          href="https://img.icons8.com/material-outlined/24/source-code.png">
+<!--    <link rel="stylesheet" href="/common/css/CVv0.2.css">-->
+    <link rel="stylesheet" href="common/css/CV.v0.3.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="mask-icon" href="https://www.resumemaker.online/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+            integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
 </head>
-<body>
-  <h1>Xin chào, tôi là Nhật 👋</h1>
-  <p>Trang đang được xây dựng...</p>
+
+<body class="locked vsc-initialized" style="overflow: visible;" data-new-gr-c-s-check-loaded="14.979.0"
+      data-gr-ext-installed="" data-new-gr-c-s-loaded="14.979.0">
+<div class="loading" style="background: #c49bb7;">
+    <div class="loading_gradient"></div>
+</div>
+<div class="video-bg">
+    <div class="vsc-controller"></div>
+    <video width="320" height="240" autoplay="" loop="" muted="">
+        <source src="./pexels-redeye-11592120-3840x2160-25fps.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+<label class="fab">
+    <div class="fab-menu">
+        <div id="toprint" class="btn fab-btn placeholder" onclick="printDiv()">&nbsp;<i class="bi bi-printer-fill"></i>&nbsp;
+        </div>
+    </div>
+    <div class="fab-blank"></div>
+</label>
+<script>
+    function printDiv() {
+
+        let printContents = document.getElementById('wrapper').innerHTML;
+        let originalContents = document.body.innerHTML;
+        document.body.innerHTML = printContents;
+        document.body.classList.add('print-setting');
+        setTimeout(function () {
+            window.print();
+        }, 1000);
+        setTimeout(function () {
+            document.body.innerHTML = originalContents;
+            document.body.classList.remove('print-setting');
+        }, 5000);
+
+    }
+</script>
+<div id="edit" style="display: block; opacity: 1;">
+    <div id="wrapper">
+        <!-- pequeno and grande -->
+        <div id="imprimir" class="template1 pequeno">
+            <div id="contimprimir" style="font-family: Poppins;opacity: 1;transform: scale(1);margin-top: -25px;">
+                <ul style ="display:flex">
+                    <li class="li27" id="foto" style="display: block;"> <label for="inputfoto2"
+                        style="cursor:pointer">
+                        <div class="cont_fotodiv"
+                            style="background: url('./common/img/20230701-_MG_8967.png'); transform: rotate(0deg);">
+                            <div id="inserta_imagenlabel" style="opacity: 0;"><img alt="image"
+                                    src="./common/img/20520267_TranThiMyNhung.jpg">
+                            </div>
+                        </div>
+                    </label>
+                    <input type="file" id="inputfoto2" style="display:none" accept="image/*">
+                </li>
+                    <li class="li100" id="nombre_cont">
+                        <div><span></span>
+                            <div class="centradovertical" id="centrado_nombre">
+                                <p class="nombre color text-center" contenteditable="false" placeholder="Your name"
+                                   id="nombre" style="color: #c49bb7; font-size: 50px; padding-bottom: 15px;">Nhung Tran Thi My</p>
+                                <p class="titulo1 text-center" contenteditable="false"
+                                   placeholder="Your profession or speciality" id="titulo" style="display: block;">
+                                    Product Management
+                                </p>
+                                <div class="contact-top">
+                                    <table id="table" style="width:90%; table-layout:fixed;">
+
+                                        <tbody>
+                                        <tr>
+                                            <td style="text-align: right;">
+                                                <a href="tel:+84969669531">
+                                                    <p class="texto" contenteditable="false"
+                                                       placeholder="Enter your phone number" style="display: contents;">
+                                                        036 890 9827</p>
+                                                    <i class="bi bi-telephone-fill"></i>
+                                                </a>
+                                            </td>
+                                            <td width="15px">
+                                                <i class="bi bi-grip-vertical" style ="display: inline-table;"></i>
+                                            </td>
+                                            <td>
+                                                <a href="mailto:mynhungttm.work@gmail.com" >
+                                    
+                                                    <i class="bi bi-envelope-fill"> </i> 
+                                            
+                                                    <p class="texto" contenteditable="false" 
+                                                       placeholder="Enter your email" style="display: contents;" >
+                                                       mynhungttm.work@gmail.com</p>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        </tbody>mynhungg
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="li27" id="datospersonales">
+                        <div id="perfil" style="display: none;">
+                            <p class="titulo1" contenteditable="false" placeholder="Profile" style="display: block;">
+                                Profile</p>
+                            <p class="texto" contenteditable="false"
+                               placeholder="Write here a paragraph about yourself or you can change the title to read 'Objective'."
+                               style=" text-align: justify;">
+                               Hello, my name is Nhung Tran Thi My.</p>
+                        </div>
+                        <p class="titulo1 contact_title" contenteditable="false" placeholder="Portfolios">Portfolios</p>
+                        <div class="contacto_item sortable" draggable="true" id="mail" style="display: none;">
+                            <div><img draggable="false" alt="" class="color_estrellas"
+                                      src="/common/img/email.png"
+                                      style="background: #c49bb7;"></div>
+                            <p class="texto" contenteditable="false" placeholder="Enter your email">
+                                mynhungttm.work@gmail.com</p>
+                        </div>
+                        <div class="contacto_item sortable" draggable="true" id="tel" style="display: none;">
+                            <div><img draggable="false" alt="" class="color_estrellas"
+                                      src="/common/img/tel.png"
+                                      style="background: #c49bb7;"></div>
+                            <a href="tel:+84799592581">
+                                <p class="texto" contenteditable="false" placeholder="Enter your phone number">036 890 9827</p>
+                            </a>
+                        </div>
+                        <div class="contacto_item sortable" draggable="true" id="linkedin" style="display: block;">
+                            <a href="https://www.linkedin.com/in/nhung-tr%E1%BA%A7n-th%E1%BB%8B-m%E1%BB%B9-6b755021b/" target="_blank">
+                                <p class="texto" contenteditable="false" placeholder="yourProfile"><i
+                                        class="bi bi-linkedin red-color icon-left"></i> Nhung Tran Thi My
+                                </p>
+                            </a>
+                        </div>
+                        <div class="contacto_item sortable" draggable="true" id="github" style="display: block;">
+                            <a href="https://github.com/mynhungg" target="_blank">
+                                <p class="texto" contenteditable="false" placeholder="yourProfile"><i
+                                        class="bi bi-github red-color icon-left"></i>mynhungg</p>
+                            </a>
+                        </div>
+                        <div class="contacto_item sortable" draggable="true" id="website" style="display: block;">
+                            <a href="https://mynhungg.github.io/myCV/" target="_blank">
+                                <p class="texto" contenteditable="false" placeholder="yourWebsite.com">
+                                    <i class="bi bi-globe red-color icon-left"></i>mynhungg.github.io/myCV/
+                                </p>
+                            </a>
+                        </div>
+
+                        <div class="contacto_item sortable" draggable="true" id="website" style="display: block;">
+                            <a href="https://www.facebook.com/profile.php?id=100009066766578" target="_blank">
+                                <p class="texto" contenteditable="false" placeholder="yourProfile" >
+                                    <i class="bi bi-facebook red-color icon-left"></i>Mỹ Nhung
+                                </p>
+                            </a>
+                        </div>
+                        
+                        <p class="titulo1 titulo2" contenteditable="false" placeholder="Custom text">Design
+                        </p>
+                        <div class="prog-box">
+                            <div class="prog-item sortable" draggable="true">Figma</div>
+                            <div class="prog-item sortable" draggable="true">Canva</div>
+                            <div class="prog-item sortable" draggable="true">Balsamiq</div>
+                        </div>
+                        <p class="titulo1 titulo2" contenteditable="false" placeholder="Custom text">Database & Cloud
+                            Services
+                        </p>
+                        <div class="prog-box">
+                            <div class="prog-item sortable" draggable="true">MS SQL Server</div>
+                            <div class="prog-item sortable" draggable="true">Oracle</div>
+                            <div class="prog-item sortable" draggable="true">Microsoft Azure</div>
+                            <div class="prog-item sortable" draggable="true">MySQL</div>
+                        </div>
+                        <p class="titulo1 titulo2" contenteditable="false" placeholder="Custom text">Tools</p>
+                        <div class="prog-box">
+                            <div class="prog-item sortable" draggable="true">Git</div>
+                            <div class="prog-item sortable" draggable="true">Power BI</div>
+                            <div class="prog-item sortable" draggable="true">Star UML</div>
+                            <div class="prog-item sortable" draggable="true">Draw.io</div>
+                            <div class="prog-item sortable" draggable="true">Lucidchart</div>
+                            <div class="prog-item sortable" draggable="true">Wordpress</div>
+                        </div>
+                        <p class="titulo1 titulo2" contenteditable="false" placeholder="Custom text">Development</p>
+                        <div class="prog-box">
+                            <div class="prog-item sortable" draggable="true">Agile</div>
+                        </div>
+                        <p class="titulo1 " contenteditable="false" placeholder="Custom text"
+                           style="justify-content: space-between">
+                            <a href="https://www.linkedin.com/in/nhung-tr%E1%BA%A7n-th%E1%BB%8B-m%E1%BB%B9-6b755021b/details/certifications/" target="_blank" title="Click to open list of certifications">
+                                CERTIFICATIONS &nbsp;
+                                <i class="bi bi-arrow-right-circle-fill red-color" style="vertical-align: top"></i>
+                            </a>
+                        </p>
+                        <div id="otros" class="sortable">
+
+
+                            <a href="https://www.coursera.org/account/accomplishments/certificate/KA49H2VAYNHP"
+                               target="_blank">
+                                <div class="cuadro myset ui-state-default">
+                                    <div class="certi-img"><img draggable="false" alt="" class="color_estrellas"
+                                                                src="common/img/R.png"
+                                                                style="background: #c49bb7;"></div>
+                                    <p class="titulo3 certi-text" contenteditable="false" placeholder="Item">
+                                        Overview of Data Visualization</p>
+                                </div>
+                            </a>
+
+                            
+                            <a href="
+                            https://www.coursera.org/account/accomplishments/certificate/S23D2BY5RZG4"
+                            target="_blank">
+                             <div class="cuadro myset ui-state-default">
+                                 <div class="certi-img"><img draggable="false" alt="" class="color_estrellas"
+                                                             src="common/img/Google-icon.jpg"
+                                                             style="background: #c49bb7;"></div>
+                                 <p class="titulo3 certi-text" contenteditable="false" placeholder="Item">
+                                    Foundations of Project Management</p>
+                             </div>
+                         </a>
+                         
+
+                            <a href="https://www.coursera.org/account/accomplishments/certificate/MURHBYLQ2LHS"
+                               target="_blank">
+                                <div class="cuadro myset ui-state-default">
+                                    <div class="certi-img"><img draggable="false" alt="" class="color_estrellas"
+                                                                src="common/img/Google-icon.jpg"
+                                                                style="background: #c49bb7;"></div>
+                                    <p class="titulo3 certi-text" contenteditable="false" placeholder="Item">
+                                        Build Wireframes and Low-Fidelity Prototypes </p>
+                                </div>
+                            </a>
+
+                            <a href="https://www.coursera.org/account/accomplishments/certificate/T8XF7A32PRN3"
+                            target="_blank">
+                                <div class="cuadro myset ui-state-default">
+                                    <div class="certi-img"><img draggable="false" alt="" class="color_estrellas"
+                                                                src="common/img/Google-icon.jpg"
+                                                                style="background: #c49bb7;"></div>
+                                    <p class="titulo3 certi-text" contenteditable="false" placeholder="Item">
+                                        Start the UX Design Process: Empathize, Define, and Ideate</p>
+                                </div>
+                            </a>
+
+                            <a href="https://www.coursera.org/account/accomplishments/certificate/3UW2RTCTYYJJ" target="_blank">
+                                <div class="cuadro myset ui-state-default">
+                                    <div class="certi-img"><img draggable="false" alt="" class="color_estrellas"
+                                                                src="common/img/Google-icon.jpg"
+                                                                style="background: #c49bb7;"></div>
+                                    <p class="titulo3 certi-text" contenteditable="false" placeholder="Item">
+                                        Foundations of User Experience (UX) Design
+                                        </p>
+                                </div>
+                            </a>
+
+                        </div>
+                     <p class="titulo1 " contenteditable="false" placeholder="Custom text">Scan me</p>
+                        <div id="QR-code">
+                            <a href="https://mynhungg.github.io/myCV/" target="_blank">';
+
+                                <img src="https://chart.googleapis.com/chart?chs=210x210&cht=qr&chld=L|0&chl=/cv&choe=UTF-8"
+                                     title="Link to CV on website" alt="QR Web" style="width: unset;"/>
+                            </a>
+
+                        </div>
+                        <p class="texto" style="font-size: 14px;margin-top:20px"><i>*Fields click to follow the
+                            pages</i></p>  
+                    </li>
+                    <li class="li73">
+                        <div id="bloqueprincipal">
+                            <p class="titulo1 education_title" contenteditable="false" placeholder="Education">
+                                EDUCATION</p>
+                            <div class="sortable formacionacademica" id="formacionacademica">
+                                <div class="cuadro ui-state-default">
+                                    <div style="position:relative">
+                                        <div class="timeline_bola color_estrellas"
+                                             style="background: #c49bb7;"></div>
+                                        <p class="titulo2 color" contenteditable="false" placeholder="Degree"
+                                           style="color: #c49bb7;">Information System</p>
+                                    </div>
+                                    <p class="titulo3" contenteditable="false" placeholder="School">University of Information Technology - UIT </p>
+                                    <br>
+                                    <p class="titulo3" contenteditable="false" placeholder="School">VietNam National University HCMC </p>
+                                    <p class="fecha" contenteditable="false" placeholder="From - Until">Oct 2020 - Now
+                                        </p>
+                                        <div>
+                                            <p class="texto" contenteditable="false">
+                                                - GPA: 8.59<br>
+                                                - Vietnam Electricity (EVN) Scholarship in 2022-2023. <br>
+                                                - Academic Encouragement Scholarship For Excellent Students in 2021-2022. <br>
+                                                - Academic Encouragement Scholarship For Good Students in 2020-2021 and 2022-2023. <br>                                              
+                                            </p>
+                                        </div>                                    
+
+                                    <div class="timeline_linea"></div>
+                                </div>
+                                <div class="cuadro ui-state-default">
+                                    <div style="position:relative">
+                                        <div class="timeline_bola color_estrellas"
+                                             style="background: #c49bb7;"></div>
+                                        <p class="titulo2 color" contenteditable="false" placeholder="Degree"
+                                           style="color: #c49bb7;">Literature Major</p>
+                                    </div>
+                                    <p class="titulo3" contenteditable="false" placeholder="School">Hung Vuong High School for the Gifted</p>
+                                    <p class="fecha" contenteditable="false" placeholder="From - Until">Aug 2017 - Jun 2020
+                                    </p>
+                                    <div class="timeline_linea"></div>
+                                </div>
+                            </div>
+
+                            <p class="titulo1 education_title" contenteditable="false" placeholder="Education">
+                                EXTRACURRICULAR ACTIVITIES</p>
+                            <div class="sortable formacionacademica" id="formacionacademica">
+
+                                <div class="cuadro ui-state-default">
+                                    <div style="position:relative">
+                                        <div class="timeline_bola color_estrellas"
+                                             style="background: #c49bb7;"></div>
+                                        <p class="titulo2 color" contenteditable="false" placeholder="Degree"
+                                           style="color: #c49bb7;">Leader</p>
+                                    </div>
+                                    <p class="titulo3" contenteditable="false" placeholder="School">Taekwondo UIT Club
+                                    </p>
+                                    <p class="fecha" contenteditable="false" placeholder="From - Until">Oct 2021 - Jan 2023</p>
+
+                                    <div class="timeline_linea"></div>
+                                </div>
+
+                                <div class="cuadro ui-state-default">
+                                    <div style="position:relative">
+                                        <div class="timeline_bola color_estrellas"
+                                             style="background: #c49bb7;"></div>
+                                        <p class="titulo2 color" contenteditable="false" placeholder="Degree"
+                                           style="color: #c49bb7;">Good Soldier</p>
+                                    </div>
+                                    <p class="titulo3" contenteditable="false" placeholder="School">Spring Volunteer Campaign
+                                    </p> 
+                                    <p class="fecha" contenteditable="false" placeholder="From - Until">Dec 2022 - Feb 2023</p>
+                                    <br>
+                                    <p class="titulo3" contenteditable="false" placeholder="School">Green Summer Volunteer Campaign
+                                    </p>
+                                    <p class="fecha" contenteditable="false" placeholder="From - Until"> Jun 2021 - Jul 2022</p>
+                                    <div class="timeline_linea"></div>
+                                </div>
+                                <div class="cuadro ui-state-default">
+                                    <div style="position:relative">
+                                        <div class="timeline_bola color_estrellas"
+                                             style="background: #c49bb7;"></div>
+                                        <p class="titulo2 color" contenteditable="false" placeholder="Degree"
+                                           style="color: #c49bb7;">Student Of 5 Merits</p>
+                                    </div>
+                                    <p class="titulo3" contenteditable="false" placeholder="School">School-recognized Student Of 5 Merits
+                                    </p>
+                                    <p class="fecha" contenteditable="false" placeholder="From - Until">  Mar 2021 - Oct 2022</p>
+
+                                    <div class="timeline_linea"></div>
+                                </div>         
+                            </div>
+
+                            <p class="titulo1" id="titulo_laboral" contenteditable="false"
+                               placeholder="Professional experience" style="display: block;">
+                                <!--
+                                <a href="https://github.com/mynhungg?tab=repositories" title="Click to show more details and project on Github" target="_blank">Projects &nbsp; <i class="bi bi-arrow-right-circle-fill red-color" style="vertical-align: top"></i></a>
+                                --> 
+                                WORK EXPERIENCES
+                            </p>    
+
+                            <div class="sortable formacionacademica" id="formacionacademica">
+
+                                <div class="cuadro ui-state-default">
+                                    <div style="position:relative">
+                                        <div class="timeline_bola color_estrellas"
+                                             style="background: #c49bb7;"></div>
+                                        <p class="titulo2 color" contenteditable="false" placeholder="Degree"
+                                           style="color: #c49bb7;">Intern Business Analyst</p>
+                                    </div>
+                                    <p class="titulo3" contenteditable="false" placeholder="School">Spiraledge Co Ltd
+                                    </p>
+                            
+                                    <p class="fecha" contenteditable="false" placeholder="From - Until">Jul 2023 - Sep 2023</p>
+                                    <p class="texto" contenteditable="false">
+                                        - Spiraledge is a internet retailer company headquartered in Campbell, 
+                                        CA with offices in Cincinnati, Ohio and  Vietnam. 
+                                        Their sites include SwimOutlet.com, the swim shop website, 
+                                        EverydayYoga.com, the yoga-focused online retailers, Swim.com, 
+                                        a digital swim training and workout platform and <b>TEND</b>, a software platform of its kind with tools 
+                                        for managing a diversified, sustainable farm.
+                                    </p>
+                                    <br>
+                                    <p class="texto" contenteditable="false">
+                                        - Responsibilities: <b>Write specification</b> for the functionalities. 
+                                        Receive customer feedback and <b>enhance</b> the feature in TEND project. 
+                                    </p>
+                                    <div class="timeline_linea"></div>
+                                </div>
+       
+                            </div>
+
+                            <p class="titulo1" id="titulo_laboral" contenteditable="false"
+                               placeholder="Professional experience" style="display: block;">
+                                <a href="https://github.com/mynhungg?tab=repositories" title="Click to show more details and project on Github" target="_blank">Projects &nbsp; <i class="bi bi-arrow-right-circle-fill red-color" style="vertical-align: top"></i></a>
+                            </p>
+                            <div class="sortable experiencialaboral" id="experiencialaboral" style="display: block;">
+<!--
+<div class="cuadro ui-state-default">
+                                    <div style="position:relative">
+                                        <div class="timeline_bola color_estrellas"
+                                             style="background: #c49bb7;"></div>
+                                        <p class="titulo2 color" contenteditable="false" placeholder="Position"
+                                           style="color: #c49bb7;">Analyst | Experiment</p>
+                                    </div>
+                                    <p class="titulo3" contenteditable="false" placeholder="Employer">PhoBERT-base Application For Text Classification</p>
+                                    <p class="fecha" contenteditable="false" placeholder="From - Until">Apr 2023 - Jun 2023</p>
+                                    <p class="texto" contenteditable="false" > - 4 members.</p>
+                                    <p class="texto" contenteditable="false">
+                                        -
+                                         This project utilizes PhoBERT-base for single-label classification tasks in Vietnamese text, 
+                                         specifically in the domains of <b>news classification</b> and <b>sentiment analysis</b>. 
+                                         Experimental results demonstrate that PhoBERT is a highly effective pre-trained model, 
+                                         achieving an accuracy of nearly 90.3%, and successfully addressing language processing challenges 
+                                         in Vietnamese that other models have not effectively tackled.
+                                    </p>
+                                    <br>
+                                    <p class="texto" contenteditable="false">
+                                        - Responsibilities: <b>Analyzing</b> the article, conduct <b>experiments</b> focused on the tasks 
+                                        of news classification and sentiment analysis.
+                                    </p>
+                                    <br>
+                                    <p class="texto" contenteditable="false">
+                                        - Github: <a href="https://github.com/mynhungg/PhoBERT-base-Application-For-Text-Classification" >https://github.com/mynhungg/PhoBERT-base-Application-For-Text-Classification. </a> 
+                                    </p>
+                                    <div class="timeline_linea"></div>
+                                </div>
+-->
+                
+                                <div class="cuadro ui-state-default">
+                                    <div style="position:relative">
+                                        <div class="timeline_bola color_estrellas"
+                                             style="background: #c49bb7;"></div>
+                                        <p class="titulo2 color" contenteditable="false" placeholder="Position"
+                                           style="color: #c49bb7;">Business Analyst | Project Manager</p>
+                                    </div>
+                                    <p class="titulo3" contenteditable="false" placeholder="Employer">Morii Coffee</p>
+                                    <p class="fecha" contenteditable="false" placeholder="From - Until">Sep 2022 - Dec 2022</p>
+                                    <p class="texto" contenteditable="false" > - 4 members.</p>
+                                    <p class="texto" contenteditable="false" >
+                                        - A website that allows customers to <b>place orders</b> and enables the coffee shop owner to manage the business. Through the website,
+                                        customers can place orders, make <b>payments</b>, and <b>track their
+                                            orders</b>. The website is built with <b> ASP.NET Core</b>.
+                                    </p>
+                                    <br>
+                                    <p class="texto" contenteditable="false">
+                                        - Responsibilities: Conduct analyst requirements and <b> write documentation </b> for user requirements, create
+                                        <b> Use Case</b>, <b>Activity Diagrams</b>, Sequence Diagrams, Class Diagrams, project implementation plans, and task assignments using <b>Trello</b>.                                        
+                                    </p>
+                                    <br>
+                                    <p class="texto" contenteditable="false">
+                                        - Behance:  <a href="https://www.behance.net/gallery/159632717/Website-Morii-Coffee?tracking_source=search_projects%7CWebsite+Morii+Coffee " >
+                                            http://bit.ly/Website-Morii-Coffee-Behance.</a>  <br>
+                                        - Github:  <a href="https://github.com/nhlong1512/IS220.N12" >
+                                            https://github.com/nhlong1512/IS220.N12.</a> 
+                                    </p>
+                                    <div class="timeline_linea"></div>
+                                </div>
+
+                                <div class="cuadro ui-state-default">
+                                    <div style="position:relative">
+                                        <div class="timeline_bola color_estrellas"
+                                             style="background: #c49bb7;"></div>
+                                        <p class="titulo2 color" contenteditable="false" placeholder="Position"
+                                           style="color: #c49bb7;">UI | UX Design</p>
+                                    </div>
+                                    <p class="titulo3" contenteditable="false" placeholder="Employer">The Lagom Coffee</p>
+                                    <p class="fecha" contenteditable="false" placeholder="From - Until">Sep 2022 - Nov 2022</p>
+                                    <p class="texto" contenteditable="false" > - 5 members.</p>
+                                    <p class="texto" contenteditable="false" >
+                                        - An UI design of a coffee app using <b>Figma</b>. Users can use the store's application to 
+                                        <b>view</b> product information, place orders, and track their orders.
+                                    </p>
+                                    <br>
+                                    <p class="texto" contenteditable="false">
+                                        - Responsibilities: Survey and analyze user needs, design <b>wireframes, mockups, </b> and <b>prototypes</b>.                                         
+                                    </p>
+                                    <br>
+                                    <p class="texto" contenteditable="false">
+                                        - Figma Prototype: <a href="https://bit.ly/thelagomcoffee " >https://bit.ly/thelagomcoffee.  </a> 
+                                    </p>
+                                    <div class="timeline_linea"></div>
+                                </div>
+
+                                <div class="cuadro ui-state-default">
+                                    <div style="position:relative">
+                                        <div class="timeline_bola color_estrellas"
+                                             style="background: #c49bb7;"></div>
+                                        <p class="titulo2 color" contenteditable="false" placeholder="Position"
+                                           style="color: #c49bb7;">Business Analyst | Database Design</p>
+                                    </div>
+                                    <p class="titulo3" contenteditable="false" placeholder="Employer">COVID-19 Support App</p>
+                                    <p class="fecha" contenteditable="false" placeholder="From - Until">Mar 2022 - Jun 2022</p>
+                                    <p class="texto" contenteditable="false" > - 4 members.</p>
+                                    <p class="texto" contenteditable="false">
+                                        - The app to <b>support</b> necessities for people affected by Covid-19 at home. 
+                                        They can submit a request for help to the app, and a valid request through the processing will be sent to the charity centers, 
+                                        the center will perform the support. The app is built with <b>Java</b>.
+                                    </p>
+                                    <br>
+                                    <p class="texto" contenteditable="false">
+                                        - Responsibilities: Analyze requirements and develop <b>system regulations</b>, create <b>UML Diagrams</b>,
+                                        participate in the process of <b>testing</b> test cases related to staff management, volunteer centers, products,...
+                                    </p>
+                                    <br>
+                                    <p class="texto" contenteditable="false">
+                                       - Github: <a href="https://github.com/mynhungg/COVID-19-Support-App-UML" >https://github.com/mynhungg/COVID-19-Support-App-UML. </a> 
+                                    </p>
+                                    <div class="timeline_linea"></div>
+                            </div>
+
+                            </div>
+
+                        </div>
+                        <div id="bloquesecundario">
+                            <div style="clear:both"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="fin_hoja_anim">
+                <div class="fin_hoja" style="display: none;"></div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
+
 </html>
