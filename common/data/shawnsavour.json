@@ -328,7 +328,7 @@
     {
       "category": "database",
       "name": "Databases & Storage",
-      "items": ["PostgreSQL", "MongoDB", "Redis", "MySQL", "DynamoDB", "RDS", "Kafka"],
+      "items": ["PostgreSQL", "MongoDB", "MySQL"],
       "extraclass": "li50"
     }
   ],
