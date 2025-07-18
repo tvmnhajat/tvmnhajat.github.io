@@ -3,28 +3,23 @@
   "title": "CS Engineer",
   "phone": "+84 702727405",
   "perfil": "Full Stack DevOps Engineer with 6+ years of experience designing and implementing secure CI/CD pipelines, infrastructure automation frameworks, and cloud-native microservices architectures. Expert in containerization technologies (Docker, Kubernetes) and Infrastructure as Code tools (Terraform, CloudFormation, Ansible). </br>Proven track record managing both cloud (AWS/Azure) and on-premise infrastructure with focus on compliance, security, and high availability. Experienced in rapid prototyping and proof-of-concept development to validate technical solutions. </br>Strong background in software development with proficiency in Python, Bash, Golang, and DevSecOps best practices. Demonstrated technical leadership experience mentoring junior team members and collaborating with cross-functional teams to solve complex infrastructure challenges.",
-  "portfolios": [{
-      "type": "Credly",
-      "name": "Credly Badge",
-      "link": "https://www.credly.com/users/shawndo/badges",
-      "icon": "bi bi-c-circle-fill"
-    },
+  "portfolios": [ 
     {
       "type": "LinkedIn",
-      "name": "shawndo",
-      "link": "https://www.linkedin.com/in/shawndo",
+      "name": "tvmnhajat",
+      "link": "https://www.linkedin.com/in/tvmnhajat",
       "icon": "bi bi-linkedin"
     },
     {
       "type": "Github",
-      "name": "shawnsavour",
-      "link": "https://github.com/shawnsavour",
+      "name": "tvmnhajat",
+      "link": "https://github.com/tvmnhajat",
       "icon": "bi bi-github"
     },
     {
       "type": "Website",
-      "name": "ShawnSavour.site",
-      "link": "https://shawnsavour.site",
+      "name": "tvmnhajat.wordpress.com",
+      "link": "https://tvmnhajat.wordpress.com",
       "icon": "bi bi-globe"
     }
   ],
@@ -297,37 +292,37 @@
     {
       "category": "iac-tools",
       "name": "Infrastructure as Code",
-      "items": ["Terraform", "CloudFormation", "Ansible", "Terragrunt", "OpenTofu"],
+      "items": ["Terraform"],
       "extraclass": "li50"
     },
     {
       "category": "programming",
       "name": "Programming Languages",
-      "items": ["Python", "Bash", "Golang", "Java", "NodeJS", "C#"],
+      "items": ["Python","JavaScripts", "Java", "NodeJS", "C#"],
       "extraclass": "li25"
     },
     {
       "category": "container-tools",
       "name": "Containerization & Orchestration",
-      "items": ["Docker", "Kubernetes", "Helm", "KEDA", "Karpenter", "Istio", "EKS", "GKE"],
+      "items": ["Docker", "Kubernetes"],
       "extraclass": "li33"
     },
     {
       "category": "cicd-tools",
       "name": "CI/CD & GitOps",
-      "items": ["GitLab CI", "ArgoCD", "Jenkins", "GitHub Actions", "GitOps", "Azure Pipeline"],
+      "items": ["GitHub Actions", "Azure Pipeline"],
       "extraclass": "li33"
     },
     {
       "category": "devsecops",
       "name": "DevSecOps & Security",
-      "items": ["HashiCorp Vault", "OPA GateKeeper", "Snyk", "SonarQube", "Trivy", "OWASP ZAP", "SAST/DAST"],
+      "items": [""],
       "extraclass": "li33"
     },
     {
       "category": "monitoring",
       "name": "Monitoring & Observability",
-      "items": ["Prometheus", "Grafana", "Loki", "Jaeger", "CloudWatch", "X-Ray", "ELK Stack"],
+      "items": [""],
       "extraclass": "li50"
     },
     {
