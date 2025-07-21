@@ -325,42 +325,6 @@
     "title": "Certifications",
     "description": "Click to see more certifications",
     "link": "https://www.linkedin.com/in/congson99/details/certifications/",
-    "items": [{
-        "name": "IBM DevOps and Software Engineering Specialization",
-        "image": "common/img/IBM-icon.jpg",
-        "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/GZLCQK9NM36N"
-      },
-      {
-        "name": "DevOps on AWS Specialization",
-        "image": "common/img/Udemy-icon.jpg",
-        "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/ZDRLWB4QQ7XH"
-      },
-      {
-        "name": "Core Infrastructure",
-        "image": "common/img/Google-icon.jpg",
-        "link": "https://www.coursera.org/account/accomplishments/certificate/VEBM4EY9H969"
-      },
-      {
-        "name": "Continuous Integration and Continuous Delivery (CI/CD)",
-        "image": "common/img/IBM-icon.jpg",
-        "link": "https://www.coursera.org/account/accomplishments/certificate/R7WJJKU5U4GD"
-      },
-      {
-        "name": "Python for Data Science and AI",
-        "image": "common/img/IBM-icon.jpg",
-        "link": "https://www.credly.com/badges/59286e28-5fd4-40d4-877a-797385dc4014/linked_in_profile"
-      },
-      {
-        "name": "Python For Data Analysis, Data Science & ML With Pandas",
-        "image": "common/img/Udemy-icon.jpg",
-        "link": "https://ude.my/UC-6dbad681-7f62-4160-b2f0-b3890cf63984/"
-      },
-      {
-        "name": "APTIS - C level (CERF)",
-        "image": "common/img/BC-icon.jpg",
-        "link": "#"
-      }
-    ]
   },
   "education": [{
       "degree": "Computer Science",
